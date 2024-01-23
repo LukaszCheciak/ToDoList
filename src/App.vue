@@ -90,11 +90,11 @@ onMounted(() => {
           </label>
         </div>
 
-        <input type="submit" value="Add todo" />
+        <input type="submit" value="Dodaj" />
       </form>
     </section>
     <section class="todo-list">
-      <h3>LISTA DO ZROBIENIA:</h3>
+      <h3>LISTA DO ZROBIENIA</h3>
       <div class="list">
         <div
           v-for="todo in todos_asc"
