@@ -59,7 +59,7 @@ onMounted(() => {
       <h3>Stwórz swoja liste</h3>
 
       <form @submit.prevent="addTodo">
-        <h4>Co znajduje się na Twojej liscie?</h4>
+        <h4>Co masz do zrobienia?</h4>
         <input
           type="text"
           placeholder="np. stwórz video"
@@ -94,7 +94,7 @@ onMounted(() => {
       </form>
     </section>
     <section class="todo-list">
-      <h3>LISTA DO ZROBIENIA</h3>
+      <h3>Lista do zrobienia:</h3>
       <div class="list">
         <div
           v-for="todo in todos_asc"
